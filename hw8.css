@@ -1,0 +1,92 @@
+header {
+  text-align: center;
+  text-decoration: underline double;
+  padding-bottom: 30px;
+}
+div {
+  border-width: 2px;
+  border-style: solid solid dashed dashed;
+  font-weight: 500;
+  max-width: 850px;
+  margin: 150px auto;
+  margin-top: 50px;
+  padding: 30px 60px;
+}
+h2 {
+  text-decoration: underline;
+}
+.text {
+  font-weight: 800;
+}
+img {
+  width: 240px;
+  height: 150px;
+  position: absolute;
+  right: -120px;
+  top: -75px;
+  border: 2px solid;
+}
+.conclusion {
+  font-size: small;
+  font-style: italic;
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: overline;
+}
+.img1 {
+  border-color: rgb(33, 58, 112);
+}
+.block {
+  position: relative;
+  background-color: rgba(116, 192, 201, 0.6);
+  border-color: rgb(33, 58, 112);
+}
+.charlotte {
+  color: rgb(33, 58, 112);
+}
+.p1::first-letter {
+  font-size: 30px;
+  color: rgb(33, 58, 112);
+}
+.firstlist:nth-child(even) {
+  color: rgb(33, 58, 112);
+  text-decoration: underline dotted;
+}
+.img2 {
+  border-color: rgb(121, 108, 108);
+}
+.block2 {
+  position: relative;
+  background-color: rgba(182, 179, 179, 0.6);
+  border-color: rgb(121, 108, 108);
+}
+.tiramisu {
+  color: rgb(121, 108, 108);
+}
+.p2::first-letter {
+  font-size: 30px;
+  color: rgb(121, 108, 108);
+}
+.secondlist:nth-child(odd) {
+  color: rgb(121, 108, 108);
+  text-decoration: underline dashed;
+}
+.img3 {
+  border-color: rgb(24, 70, 24);
+}
+.block3 {
+  position: relative;
+  background-color: rgba(86, 184, 86, 0.7);
+  border-color: rgb(24, 70, 24);
+}
+.cookie {
+  color: rgb(24, 70, 24);
+}
+.p3::first-letter {
+  font-size: 30px;
+  color: rgb(24, 70, 24);
+}
+.thirdlist:nth-child(3n) {
+  color: rgb(24, 70, 24);
+  text-decoration: underline wavy;
+}
